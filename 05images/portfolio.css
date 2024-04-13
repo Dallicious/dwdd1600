@@ -1,0 +1,173 @@
+/* body elements---------------- */
+
+body {
+    color: #eee;
+    background-color: #222;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* navigation elements --------- */
+
+nav ul{
+    color: #f7d259;
+    padding: 1rem 2rem;
+    margin: 0 2%;
+    display: flex;
+    text-align: center;
+    list-style-type: none;    
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f7d259;
+    display: block;
+    padding: .925rem;
+}
+
+nav a:hover {
+    color: #eee;
+    background-color: #393939;
+    border-radius: 10px;
+}
+
+nav li.active a {
+    color: #eee;
+}
+
+
+/* header elements ------------- */
+
+header {
+    padding: .75rem 2%;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* main elements --------------- */
+
+main p {
+    margin: 0 3%;
+    padding: 0 0 25px 0;
+    font-size: 1.1rem;
+}
+
+
+main h1 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+main dl {
+    margin: 0 3%;
+    padding: 0 0 25px 0;
+}
+
+main dl a {
+    color: #f7d259;
+}
+main dd {
+    margin: 5px 1%;
+}
+
+
+main figure {
+
+    margin: 35px 3% ;
+
+}
+
+main figure figcaption.audio:hover {
+    color: #f7d259;
+}
+
+main a {
+    color: #f7d259;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+
+main a:hover {
+    color: #eee;
+}
+
+main ul {
+    margin: 0 1%;
+   
+}
+
+main ol {
+    margin: 0 1%;
+    list-style-type: disc;
+}
+
+main address {
+    margin: 0 3%;
+    padding: 10px 25px;
+    font-style: normal;
+    background-color: #393939;
+    border-color: #f7d259;
+    border: 1px solid #f7d259;
+    border-radius: 5px;
+}
+
+figure.wrapped {
+    width: 30%;
+    float: right;
+    margin: 0 0 0 2%;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #f7d259;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 3%;
+
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #f7d259;
+}
+
+/* footer elements ------------- */
+
+footer {
+    text-align: center;
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #f7d259;
+}
+
+footer a:hover {
+    color: #eee;
+}
