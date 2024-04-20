@@ -1,0 +1,262 @@
+/* body elements---------------- */
+
+body {
+    color: #eee;
+    background-color: #222;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* header elements ------------- */
+
+header {
+
+    font-size: 2rem;
+}
+
+header h1 {
+    color: #eee;
+    background-color: #222;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 25px 3% 25px ;
+}
+
+/* navigation elements --------- */
+
+nav ul{
+    color: #f7d259;
+    margin: 0;
+    margin-bottom: 25px;
+    display: flex;
+    list-style-type: none;    
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f7d259;
+    display: block;
+    padding: .925rem;
+}
+
+nav a:hover {
+    color: #eee;
+    background-color: #393939;
+    border-radius: 10px;
+}
+
+nav li.active a {
+    color: #eee;
+}
+
+
+/* main elements --------------- */
+
+main p {
+    margin: 0 3% 25px;
+    padding: 0 0 25px;
+    font-size: 1.1rem;
+}
+
+
+main h1 {
+    margin: 0 3%;
+    margin-bottom: 25px;
+    font-size: 2rem;
+
+}
+
+main h2 {
+    margin: 0 3% 20px;
+    font-size: 2rem;
+}
+
+main dl {
+    margin: 0 3% 25px;
+    padding: 0 0 25px 0;
+}
+
+main dl a {
+    color: #f7d259;
+}
+main dd {
+    margin: 5px 1%;
+}
+
+
+main figure {
+
+    margin: 35px 50% 35px 3% ;
+
+}
+
+
+main figure.topbutton {
+    padding: .925rem;
+    margin: 0 75% 0 3%;
+    background-color: #f7d259;
+    border-radius: 10px;
+    text-align: center;
+}
+main figure.topbutton:hover {
+    background-color: #eee;
+}
+
+main figure.topbutton a {
+    color: #222;
+    text-decoration: none;
+
+
+}
+    
+
+main a {
+    color: #f7d259;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+
+main a:hover {
+    color: #eee;
+}
+
+main ul {
+    margin: 0 1% 50px;
+    
+   
+}
+
+main ol {
+    margin: 0 1% 25px;
+    list-style-type: disc;
+}
+
+main address {
+    margin: 0 70% 25px 3%;
+    padding: 10px 25px;
+    font-style: normal;
+    background-color: #393939;
+    border-color: #f7d259;
+    border: 1px solid #f7d259;
+    border-radius: 5px;
+}
+
+/* Images --------- */
+
+figure.wrapped {
+    width: 30%;
+    float: right;
+    margin: 0 0 0 2%;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #f7d259;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 3%;
+
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #f7d259;
+}
+
+/* Form Elements--------- */
+
+.myform fieldset {
+    border: 1px solid #f7d259;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myform legend {
+    color: #f7d259;
+    font-size: .9rem;
+}
+
+.myform label {
+    margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+    display: block;
+}
+
+.myform [type-text], .myform [type-tel], .myform [type-email], .myform select, .myform textarea {
+    border: solid 1px #f7d259;
+    background-color: #393939;
+    color: white;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 200;
+}
+.myform textarea {
+    height: 6rem;
+    color: white;  
+
+}
+
+
+.myform :required {
+    background-color: #3d3030;
+    color: white;
+}
+
+.myform [type=submit] {
+    background-color: #f7d259;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #222;
+    margin: 1rem 0 0 1%;
+    
+}
+
+.myform input.sendbutton {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+
+.myform input.sendbutton:hover {
+    background-color: #eee;
+}
+
+/* footer elements ------------- */
+
+footer {
+    text-align: center;
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #f7d259;
+}
+
+footer a:hover {
+    color: #eee;
+}
